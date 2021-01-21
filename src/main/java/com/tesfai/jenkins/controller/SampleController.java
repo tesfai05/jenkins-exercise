@@ -11,9 +11,9 @@ public class SampleController {
 	public String sampleMethod() {
 		return "Jenkins work fine";
 	}
-	@GetMapping("/{name}")
+	@GetMapping("/welcome/{name}")
 	public String welcomeMethod(@PathVariable String name) {
-		return name+", Welcome brother to Jenkin tutorial !";
+		return name+", Welcome to Jenkins tutorial !";
 	}
 
 }
