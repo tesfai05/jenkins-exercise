@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String sampleMethod() {
-		return "Jenkins work fine";
+		return "Jenkins is working fine";
 	}
 	@GetMapping("/welcome/{name}")
 	public String welcomeMethod(@PathVariable String name) {
