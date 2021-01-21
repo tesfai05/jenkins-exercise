@@ -9,11 +9,11 @@ public class SampleController {
 	
 	@GetMapping("/home")
 	public String sampleMethod() {
-		return "Jenkins is working fine"
+		return "Jenkins is working fine";
 	}
 	@GetMapping("/welcome/{name}")
 	public String welcomeMethod(@PathVariable String name) {
-		return name+", Welcome to Jenkins tutorial !"
+		return name+", Welcome to Jenkins tutorial !";
 	}
 
 }
